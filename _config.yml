@@ -16,9 +16,9 @@
 title: Andrea Capuano | Software & Web developer.
 email: andrealfie@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal blog and portfolio. You can find out about who I am and
-  my most recent projects. I recently graduated from computer engineering @ University
-  of Napoli Federico II.
+  My name is Andrea Capuano, this is my personal blog and portfolio. You can find out about who I am and
+  my most recent projects. I recently got my Bachelor's degree in computer engineering @ University
+  of Napoli Federico II and currently studying to graduate from master's degree.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://arocketman.github.com" # the base hostname & protocol for your site
 twitter_username: 
@@ -28,3 +28,4 @@ facebook_username: Alfie92
 # Build settings
 markdown: kramdown
 theme: minima
+repository: arocketman/arocketman.github.io
