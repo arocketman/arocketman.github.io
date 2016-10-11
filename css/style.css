@@ -6,7 +6,7 @@
 }
 
 body{
-	background-color: #f0f9ff;
+	background-color: #ffffff;
 }
 
 /** ----------------------------------------- NAVIGATION --------------------------------------------- **/
@@ -88,14 +88,19 @@ body{
 }
 
 .post-date-listview{
-	float:left;
 	font-family: monospace;
-	width:100px;
 }
 
 .projects-hr{
 	width: 30%;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 
 /* Syntax highlighting  */ 
 

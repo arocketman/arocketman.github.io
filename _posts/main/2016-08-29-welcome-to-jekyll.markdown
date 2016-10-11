@@ -5,7 +5,6 @@ date:   2016-08-29 14:52:07 +0200
 categories: main
 ---
 Adding icons to jekyll posts is really easy. We will use font-awesome which you can download and use from [here][font-awesome], open up your post and add the following to your YAML:
-
 {% highlight YAML %}
 icons:
 - iconname1
