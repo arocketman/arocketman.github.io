@@ -3,6 +3,8 @@ layout: post
 title:  "Minimum-spanning-tree: Network(Node,Arc) class and Kruskal's algorithm in java."
 date:   2016-10-11 22:02:07 +0200
 categories: main
+icons: 
+- icon-java
 ---
 I've been recently studying some operational research methods at my University. One interesting algorithm I've came across is Kruskal's algorithm to build a minimum spanning tree.
 I've built an overly-simplistic java class that handles Nodes and Arcs, here are some of the highlights:
