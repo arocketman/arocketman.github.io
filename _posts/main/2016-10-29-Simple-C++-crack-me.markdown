@@ -9,7 +9,7 @@ icons:
 - fa-windows
 ---
 In this post I'll write a simple crackme in c++ (a very very simple one) and try to crack into it with ollydbg.
-The provided crackme is really simple and it's basically just an "insert correct password" one, code should be pretty self-explaining:
+The provided crackme is really simple and it's basically just an "insert correct password" one, code should be pretty self-explanatory:
 
 {% highlight c++ %}
 #include <iostream>
