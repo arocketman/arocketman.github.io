@@ -29,6 +29,8 @@ facebook_username: Alfie92
 markdown: kramdown
 theme: minima
 repository: arocketman/arocketman.github.io
+paginate: 3
 
 gems:
   - jekyll-seo-tag
+  - jekyll-paginate

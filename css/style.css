@@ -101,6 +101,10 @@ body{
     display: block;
 }
 
+.pagination{
+	float:right;
+}
+
 
 /* Syntax highlighting  */ 
 
