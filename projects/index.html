@@ -10,7 +10,7 @@ layout: default
         <a class="post-link" href="{{ post.github }}">{{ post.title | escape }}</a>
       </h2>
     </li>
-    {{ post.content }}
+    {{ post.excerpt }}
     <ul class="icons">
       {% for icon in post.icons %}
       <li><i class="fa {{icon}} fa-3x"></i></li>

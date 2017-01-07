@@ -9,3 +9,5 @@ icons:
 - fa-android
 ---
 Awwdroid is an android app that allows to fetch and visualize pictures from Reddit. It also has features sorting features,sharing and downloading of images. 
+
+More info: [github](https://github.com/arocketman/Awwdroid)

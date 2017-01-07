@@ -7,7 +7,6 @@ icons:
 - fa-code
 ---
 BonitaBPM is one of the many BPMS available, community edition is free and downloadable from [here][bonitasoft] , the software uses standard BPM notation (BPMN).
-
 We will create a simple process where an employee proposes a new marketing strategy and awaits for the manager approval.
 
 The elements we are going to need are here listed:

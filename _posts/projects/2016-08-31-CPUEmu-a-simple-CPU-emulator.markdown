@@ -8,4 +8,6 @@ icons:
 - icon-java
 - fa-windows
 ---
-CPUEmu is a simple CPU-Memory emulator base on MC68000. Written as a fun project as I worked along my Computer Architecture II course.
+CPUEmu is a simple CPU-Memory emulator base on MC68000. Written as a fun project as I worked along my Computer Architecture II course. You can find several programs that are written in assembly and working on this emulator on github. 
+
+More info: [github](https://github.com/arocketman/CPUemu) 
