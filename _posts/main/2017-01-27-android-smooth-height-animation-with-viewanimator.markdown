@@ -9,11 +9,9 @@ icons:
 - fa-android
 ---
 In this brief article I'll demonstrate how to create a height animation such as this one:
-
 <center>
 <iframe src='https://gfycat.com/ifr/ReflectingParallelAquaticleech' frameborder='0' scrolling='no' width='348' height='451' allowfullscreen></iframe>
 </center>
-
 To do that, we'll use the Android ValueAnimator, you can find more about it on the [official documentation][ValueAnimator].
 
 Here's the code snippet you'll need to animate:
