@@ -101,6 +101,10 @@ body{
     display: block;
 }
 
+.w100{
+	width:100%;
+}
+
 .pagination{
 	float:right;
 }

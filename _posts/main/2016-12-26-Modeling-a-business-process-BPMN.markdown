@@ -48,7 +48,7 @@ To do this, select the swimlane and on the "General" tab select "Actors". Then c
 
 Running the process in its current status will provide automatically generated forms such as this one:
 
-![Form1]({{ site.url }}/assets/images/marketing_proposal/4.PNG){: .center-image}
+![Form1]({{ site.url }}/assets/images/marketing_proposal/4.PNG){: .center-image .w100}
 
 Logging in as walter.bates and executing the proposal task and helen.kelly and doing the review task will complete the whole process execution.
 We'll now use the UI designer to show some details of the proposal so that the manager can actually review it.
@@ -63,7 +63,7 @@ Then you'll be able to easily access the variable fields using the text widget {
 
 We're all set, you can run the process and simulate it easily now. Just hit the run process button and see for yourself how it works. Mind you have to log in as helen kelly to execute the review operation. Password is "bpm" for all of the users in the ACME organizations. The following pictures illustrate the process:
 
-![Exec1]({{ site.url }}/assets/images/marketing_proposal/6.PNG){: .center-image}
+![Exec1]({{ site.url }}/assets/images/marketing_proposal/6.PNG){: .center-image .w100}
 ![Exec2]({{ site.url }}/assets/images/marketing_proposal/7.PNG){: .center-image}
 
 That's pretty much the foundations of what you can do to run a really basic process with bonita. Of course there are many other things that can be done but I wouldn't stress it in a small blog post.
