@@ -40,7 +40,7 @@ First, we will computer the difference between the observations then we'll apply
 I'll be using JMP by SAS to verify this.
 
 
-![Exec1](/assets/images/t-test.PNG){: .center-image}
+![Exec1]({{ site.url }}/assets/images/t-test.PNG){: .center-image}
 
 Looking at the image we can see that the p-value is < 0.0001, meaning the null hypotesis is rejected, thus confirming that the difference of the two samples is non-zero. So they are statistically different.
 Also, notice we have a Wilcoxon test as well that also confirms the non-null of the sample.
