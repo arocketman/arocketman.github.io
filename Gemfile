@@ -18,6 +18,8 @@ gem "minima"
 gem 'jekyll-seo-tag'
 #Pagination
 gem 'jekyll-paginate'
+gem 'jekyll-admin', group: :jekyll_plugins
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
