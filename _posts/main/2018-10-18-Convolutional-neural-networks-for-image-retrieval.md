@@ -15,7 +15,7 @@ Recent scientific articles such as the one of Zhi et al[1] have succeeded in usi
 
 Perhaps an even more interesting discovery is the fact that loosely trained CNNs still perform really well on CBIR tasks. Where by loosely trained I don't mean that they're trained on a small dataset, but I mean that the CBIR keeps on working well even on tasks that are unrelated to the ones for which the CNN was previously trained for.
 
-![Vgg16]({{ site.url }}/assets/images/zoom-vgg16.png){: .center-image}
+![Vgg16]({{ site.url }}/assets/images/zoom-vgg16.png){: .center-image , : .w100}
 
 In the figure above the popular VGG-16 architecture is showed. Extracting features from a fully connected layer would result in a vector with a length of 4096. Which is.. big, but arguably not that big . 
 However, if you'd extract from the max pooling layer, you'd have a 7x7x512 size feature vector, that totals to 25088. On the bright side, compressing it will result in a smaller size vector, a GZIP conversion could work just fine and reduce the size drastically.
@@ -35,12 +35,10 @@ Arguably a L2 norm could improve retrieval results as highlighted by some simila
 Results obtained were quite suprising. The system worked exceptionally well even on tasks unrelated to the ones the CNN was trained for. Here's just a glimpse of code to get you started:
 
 {% highlight JAVA %}
-
     Map<String, INDArray> stringINDArrayMap = extract(file, vgg16transfer);
     INDArray fc2 = stringINDArrayMap.get(EXTRACTION_LAYER);
     INDArray normalized = fc2.div(fc2.norm2Number());
     saveCompressed(file,normalized);
-    
 {% endhighlight %}
 
 Where the extract method basically contains the operations of step 2 and a vgg16.feedForward(image, false) for step 3. And saveCompressed is just a call to a method that compresses the features with a basic compressor provided by ND4j but you could arguably use the array as-is.
