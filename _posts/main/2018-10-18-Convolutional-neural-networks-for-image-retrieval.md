@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Extracting features from Convolutional neural networks for image retrieval"
-date:   2018-04-10 12:02:07 +0200
+date:   2018-04-10 00:02:07 +0200
 categories: main
 icons: 
 - database
