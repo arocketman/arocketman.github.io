@@ -38,7 +38,7 @@ If two or more nodes attempt to activate the same node, the merge function steps
 
 Here's an example:
 
-![Network]({{ site.url }}/assets/images/examplegr.PNG){: .center-image}
+![Network]({{ site.url }}/assets/images/examplegr.png){: .center-image} : .w100}
 
 Given the following network, here's an execution output:
 
