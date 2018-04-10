@@ -9,7 +9,6 @@ icons:
 ---
 
 Recently I've had the opportunity to further explore convolutional neural networks. More specifically I analyzed how layer activations of a convolutional neural network can be effectively used for different kind of purposes.
-
 Recent works highlighted how it's possible to use layer activations from the fully connected layers to perform object detection, just by removing the last classifying layer and by transforming the activations in a feature vector that can be used for different purposes.
 
 Recent scientific articles such as the one of Zhi et al[1] have succeeded in using features extracted from the last pooling layer and use the vector for content based image retrieval purposes.
