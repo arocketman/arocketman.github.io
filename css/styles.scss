@@ -1,0 +1,92 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$font-stack: "Nanum Gothic Coding", sans-serif, Helvetica;
+$primary-color: rgb(247, 247, 247);
+$background-color: #093a77;
+html{
+  body {
+    margin: 0;
+    height: 100%;
+    color: $primary-color;
+    background-color: $background-color !important;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+      height: 100%;
+      font: 100% $font-stack;
+      color: $primary-color;
+
+      .posts{
+
+        a{
+          color: #36cfff; 
+        }
+      }
+
+      .profile_and_social{
+        width: auto;
+        text-align: center;
+
+        hr{
+          border:0;
+          border-top: 1px solid #da4747;
+          width: 75%;
+          margin: auto;
+        }
+
+        p{
+          margin: 10px 0 10px 0;
+        }
+
+        .my_face_img{
+          width: 150px;
+          height: 150px;
+          border-radius: 100px;
+          padding-bottom:10px;
+        }
+
+        .social-icons{
+            color:black;
+          
+          ul{
+            padding-top: 10px;
+            list-style:none;
+            margin-left: 0px;
+
+
+            li{
+              display:inline;
+              padding:5px;
+            }
+
+            a{
+              color:white;
+              -webkit-transition: .3s color;
+              -o-transition: .3s color;
+              transition: .3s color;
+
+              &:hover{
+                color:red;
+                text-decoration: none;
+              }
+            }
+          }
+          
+        }
+        
+      }
+    }
+
+  }
+}
