@@ -1,13 +1,43 @@
-{% include header.html %}
-
-<div class="container">
-<div class="row">
-	<div class="col-md-8 col-md-push-4 col-sm-6 col-sm-push-6 col-xs-12 main-content">
-		{{ content }}
-	</div>
-	<div class="col-md-4 col-md-pull-8 col-sm-6 col-sm-pull-6 col-xs-12 sidebar">
-		{% include sidebar.html %}
-	</div>
-</div>
-
-{% include footer.html %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet"> 
+  </head>
+  <body>
+      <div class="container">
+            <div class="profile_and_social">
+                <img class="my_face_img" src="{{site.baseurl}}/assets/profile.jpg" alt="Hi!">
+                <hr />
+                <p>{{ site.description | escape }}</p>
+                <hr />
+                <div class="social-icons">
+                <ul>
+                  <li>
+                    <a href="https://github.com/{{ site.github_username }}">
+                      <i class="fa fa-github fa-lg"></i>
+                    </a>
+                  </li>
+                      <li>
+                    <a href="mailto:{{ site.email }}">
+                      <i class="fa fa-envelope fa-lg"></i>
+                    </a>
+                  </li>
+                  <li>	
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+                      <i class="fa fa-linkedin-square fa-lg"></i>
+                    </a>
+                  </li>
+                </ul>
+                </div>
+            </div>
+            <div class="posts">
+                {{ content }}
+            </div>
+      </div>
+  </body>
+</html>
