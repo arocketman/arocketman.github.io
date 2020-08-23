@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Currently working at Unicredit bank, previously employed at Vodafone. 
   <br />
   <br />
-  I enjoy contributing to open source projects eat delicious food, drink good wine and watch memorable movies.
+  I enjoy contributing to open source projects, eat delicious food, drink good wine and watch memorable movies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
