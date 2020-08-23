@@ -21,7 +21,7 @@
 title: Andrea Capuano website - arocketman
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software engineer, Artificial intelligence
+  I am a software engineer based in Italy. I write about Software architecture, Artificial Intellignece and Cloud computing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
