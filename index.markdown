@@ -22,6 +22,8 @@ title: Andrea Capuano personal website
 
 * 14/04/20 - Add support for NLP/NLU framework [SpaCy](https://spacy.io/) to machine learning lifecycle platform [Mlflow](https://www.mlflow.org/) - [Github PR](https://github.com/mlflow/mlflow/pull/2242)
 
+* 25/12/19 - Springer publication - Scalable focused crawler based on deep learning techniques (CNN) and graph db (Neo4j) [Multimedia tools and Application Publication](https://link.springer.com/article/10.1007/s11042-019-08252-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst)
+
 * 25/11/18 - Learn to use Spring OAuth2 - [Tutorial and github repo](https://github.com/arocketman/Spring-oauth2-jpa-example)
 
 * 14/12/17 - Easy to use Graph Library with Java and VisFx  [Github repo with examples](https://github.com/arocketman/VisFX)
